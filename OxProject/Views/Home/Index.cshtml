@@ -1,14 +1,132 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+ 
+<!-- Portfolio-Area -->
+<section class="section-padding" id="portfolio-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="page-title text-center">
+                    <h2 class="title">Product</h2>
+                    <p>There are many ....</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- Mixitup controls -->
+                <ul class="filter-controls text-center">
+                    <li class="active filter" data-filter="all">All</li>
+                    <li class="active filter" data-filter=".graphics">Graphics</li>
+                    <li class="filter" data-filter=".ux_ui">UI/UX</li>
+                    <li class="filter" data-filter=".web_design">Web Design</li>
+                    <li class="filter" data-filter=".coding">Coding</li>
+                    <li class="filter" data-filter=".developing">Developing</li>
+                    <li class="filter" data-filter=".photography">Photography</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="filtering">
+            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-1.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Print Template</h5>
+                        <a href="images/work-1.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui ">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-2.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Graphics Template</h5>
+                        <a href="images/work-2.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics ">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-3.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Web Template</h5>
+                        <a href="images/work-3.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-4.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Developing</h5>
+                        <a href="images/work-4.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design photography">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-5.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Photography</h5>
+                        <a href="images/work-5.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix coding">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-6.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Coding</h5>
+                        <a href="images/work-6.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-7.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Web Desing</h5>
+                        <a href="images/work-7.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix coding photography">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-8.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Coding</h5>
+                        <a href="images/work-8.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio-Area / -->
 <!-- About-Area -->
 <section class="section-padding" id="about-area">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-5">
                 <div class="page-title">
-                    <h2 class="title wow fadeInUp">We Offer Quick &amp; Powerful Business Solution</h2>
+                    <h2 class="title wow fadeInUp">We Offer App With Mobile</h2>
                     <div class="wow fadeInUp" data-wow-delay="0.5s">
                         <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you.</p>
                     </div>
@@ -138,187 +256,49 @@
     </div>
 </section>
 
-<!-- Skill-Area -->
-<section class="section-padding gray-bg" id="skill-area">
+<section class="section-padding gray-bg">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-5">
-                <div class="page-title">
-                    <h2 class="title wow fadeInUp">Our Professional Skill</h2>
-                    <div class="wow fadeInUp">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+        <div class="row counters">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="count-box wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="count-icon">
+                        <i class="icofont icofont-bag-alt"></i>
                     </div>
-                </div>
-                <div class="skills skills1 row">
-                    <!-- main skill No. 1 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="chart chart1 center" data-percent="95">
-                            <span class="counter">95</span>
-                        </div>
-                        <h6>WebDesign</h6>
-                    </div>
-                    <!-- main skill No. 2 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="chart chart1 center" data-percent="85">
-                            <span class="counter">85</span>
-                        </div>
-                        <h6>Coding</h6>
-                    </div>
-                    <!-- main skill No. 3 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="chart chart1 center" data-percent="90">
-                            <span class="counter">90</span>
-                        </div>
-                        <h6>Developing</h6>
-                    </div>
-                    <!-- main skill No. 4 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="chart chart1 center" data-percent="95">
-                            <span class="counter">95</span>
-                        </div>
-                        <h6>Java Script</h6>
-                    </div>
-                    <!-- main skill No. 4 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="1s">
-                        <div class="chart chart1 center" data-percent="85">
-                            <span class="counter">85</span>
-                        </div>
-                        <h6>Apps Design</h6>
-                    </div>
-                    <!-- main skill No. 4 -->
-                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="chart chart1 center" data-percent="90">
-                            <span class="counter">90</span>
-                        </div>
-                        <h6>Graphics Script</h6>
-                    </div>
+                    <span class="count_title">Project Complete</span>
+                    <h2 class="count">1172</h2>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-offset-1">
-                <img src="images/skill-image.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Skill-Area / -->
-<!-- Portfolio-Area -->
-<section class="section-padding" id="portfolio-area">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                <div class="page-title text-center">
-                    <h2 class="title">Portfolio Project</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="count-box wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="count-icon">
+                        <i class="icofont icofont-emo-simple-smile"></i>
+                    </div>
+                    <span class="count_title">Happy Client’S</span>
+                    <h2 class="count">1000</h2>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <!-- Mixitup controls -->
-                <ul class="filter-controls text-center">
-                    <li class="active filter" data-filter="all">All</li>
-                    <li class="active filter" data-filter=".graphics">Graphics</li>
-                    <li class="filter" data-filter=".ux_ui">UI/UX</li>
-                    <li class="filter" data-filter=".web_design">Web Design</li>
-                    <li class="filter" data-filter=".coding">Coding</li>
-                    <li class="filter" data-filter=".developing">Developing</li>
-                    <li class="filter" data-filter=".photography">Photography</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row" id="filtering">
-            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics developing">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-1.jpg" alt="">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="count-box wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="count-icon">
+                        <i class="icofont icofont-businessman"></i>
                     </div>
-                    <div class="filter-hover">
-                        <h5>Print Template</h5>
-                        <a href="images/work-1.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
+                    <span class="count_title">Total Client’s</span>
+                    <h2 class="count">1200</h2>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui ">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-2.jpg" alt="">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="count-box wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="count-icon">
+                        <i class="icofont icofont-money"></i>
                     </div>
-                    <div class="filter-hover">
-                        <h5>Graphics Template</h5>
-                        <a href="images/work-2.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics ">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-3.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Web Template</h5>
-                        <a href="images/work-3.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui developing">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-4.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Developing</h5>
-                        <a href="images/work-4.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design photography">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-5.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Photography</h5>
-                        <a href="images/work-5.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix coding">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-6.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Coding</h5>
-                        <a href="images/work-6.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design developing">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-7.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Web Desing</h5>
-                        <a href="images/work-7.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 mix coding photography">
-                <div class="filter-box">
-                    <div class="filter-image">
-                        <img src="images/work-8.jpg" alt="">
-                    </div>
-                    <div class="filter-hover">
-                        <h5>Coding</h5>
-                        <a href="images/work-8.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-                    </div>
+                    <span class="count_title">Wining Award</span>
+                    <h2 class="count">1172</h2>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Portfolio-Area / -->
+
 <!-- Team-Area -->
 <section class="section-padding" id="team-area">
     <div class="container">
@@ -357,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
+            <!--<div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="team-box wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-image">
                         <img src="images/team-2.jpg" alt="">
@@ -433,14 +413,77 @@
                             <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
 </section>
 <!-- Team-Area / -->
+<!-- Skill-Area -->
+<section class="section-padding gray-bg" id="skill-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="page-title">
+                    <h2 class="title wow fadeInUp">Our Professional Skill</h2>
+                    <div class="wow fadeInUp">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+                    </div>
+                </div>
+                <div class="skills skills1 row">
+                    <!-- main skill No. 1 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="chart chart1 center" data-percent="95">
+                            <span class="counter">95</span>
+                        </div>
+                        <h6>WebDesign</h6>
+                    </div>
+                    <!-- main skill No. 2 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="chart chart1 center" data-percent="85">
+                            <span class="counter">85</span>
+                        </div>
+                        <h6>Coding</h6>
+                    </div>
+                    <!-- main skill No. 3 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="chart chart1 center" data-percent="90">
+                            <span class="counter">90</span>
+                        </div>
+                        <h6>Developing</h6>
+                    </div>
+                    <!-- main skill No. 4 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="1.2s">
+                        <div class="chart chart1 center" data-percent="95">
+                            <span class="counter">95</span>
+                        </div>
+                        <h6>Java Script</h6>
+                    </div>
+                    <!-- main skill No. 4 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="1s">
+                        <div class="chart chart1 center" data-percent="85">
+                            <span class="counter">85</span>
+                        </div>
+                        <h6>Apps Design</h6>
+                    </div>
+                    <!-- main skill No. 4 -->
+                    <div class="skill col-md-4 col-xs-6 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="chart chart1 center" data-percent="90">
+                            <span class="counter">90</span>
+                        </div>
+                        <h6>Graphics Script</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-offset-1">
+                <img src="images/skill-image.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skill-Area / -->
 <!-- Price-Area -->
-<section class="section-padding gray-bg" id="price-area">
+<!--<section class="section-padding gray-bg" id="price-area">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -569,10 +612,10 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- Price-Area -->
 <!-- Blog-area -->
-<section class="section-padding" id="blog-area">
+<!--<section class="section-padding" id="blog-area">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
@@ -624,48 +667,5 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- Blog-area / -->
-
-<section class="section-padding gray-bg">
-    <div class="container">
-        <div class="row counters">
-            <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="count-box wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="count-icon">
-                        <i class="icofont icofont-bag-alt"></i>
-                    </div>
-                    <span class="count_title">Project Complete</span>
-                    <h2 class="count">1172</h2>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="count-box wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="count-icon">
-                        <i class="icofont icofont-emo-simple-smile"></i>
-                    </div>
-                    <span class="count_title">Happy Client’S</span>
-                    <h2 class="count">1000</h2>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="count-box wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="count-icon">
-                        <i class="icofont icofont-businessman"></i>
-                    </div>
-                    <span class="count_title">Total Client’s</span>
-                    <h2 class="count">1200</h2>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="count-box wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="count-icon">
-                        <i class="icofont icofont-money"></i>
-                    </div>
-                    <span class="count_title">Wining Award</span>
-                    <h2 class="count">1172</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
