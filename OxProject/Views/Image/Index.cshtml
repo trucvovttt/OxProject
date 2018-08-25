@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<!-- Mainmenu-Area -->
+<nav class="navbar mainmenu-area" data-spy="affix" data-offset-top="197">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="search-box" class="collapse">
+                    <form action="#">
+                        <input type="search" class="form-control" placeholder="What do you want to know?">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="navbar-header smoth">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#home-area">Ox</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="mainmenu">
+                    <ul class="nav navbar-nav navbar-right help-menu">
+                        <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>
+                        <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>
+                        <li class="select-cuntry">
+                            <select name="counter" id="counter">
+                                <option value="ENG">ENG</option>
+                                <option value="VIE">VIE</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav primary-menu">
+                        <li><a href="#home-area">Image</a></li>
+                        <li><a href="#portfolio-area">Collection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Mainmenu-Area-/ -->
+<!--Header-Area-->
+<header class="header-area overlay" id="home-area">
+    <div class="vcenter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="header-text">
+                        <h2 class="header-title wow fadeInUp">Welcom To Ox Image<!--<span class="dot"></span>--></h2>
+                        <div class="wow fadeInUp" data-wow-delay="0.5s"><q>Ox Image provides images were designed</q></div>
+                        <div class="wow fadeInUp" data-wow-delay="0.7s">
+                            <a href="@Url.Action("Index", "Home")" class="bttn bttn-lg bttn-primary">Go To Ox Home Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--Header-Area-/-->
+<!-- Portfolio-Area -->
+<section class="section-padding" id="portfolio-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="page-title text-center">
+                    <h2 class="title">Product</h2>
+                    <p>There are many ....</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- Mixitup controls -->
+                <ul class="filter-controls text-center">
+                    <li class="active filter" data-filter="all">All</li>
+                    <li class="active filter" data-filter=".graphics">Graphics</li>
+                    <li class="filter" data-filter=".ux_ui">UI/UX</li>
+                    <li class="filter" data-filter=".web_design">Web Design</li>
+                    <li class="filter" data-filter=".coding">Coding</li>
+                    <li class="filter" data-filter=".developing">Developing</li>
+                    <li class="filter" data-filter=".photography">Photography</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="filtering">
+            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-1.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Print Template</h5>
+                        <a href="images/work-1.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui ">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-2.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Graphics Template</h5>
+                        <a href="images/work-2.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix graphics ">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-3.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Web Template</h5>
+                        <a href="images/work-3.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-4.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Developing</h5>
+                        <a href="images/work-4.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design photography">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-5.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Photography</h5>
+                        <a href="images/work-5.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix coding">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-6.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Coding</h5>
+                        <a href="images/work-6.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix web_design developing">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-7.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Web Desing</h5>
+                        <a href="images/work-7.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 mix coding photography">
+                <div class="filter-box">
+                    <div class="filter-image">
+                        <img src="images/work-8.jpg" alt="">
+                    </div>
+                    <div class="filter-hover">
+                        <h5>Coding</h5>
+                        <a href="images/work-8.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio-Area / -->

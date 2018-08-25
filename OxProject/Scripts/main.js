@@ -187,4 +187,24 @@
             mobile: false,
         });
     });
+
+    $('#countUp').on("load", function countUp() {
+        now = new Date();
+        countTo = new Date('April 18, 2018 00:00:00');
+        difference = (now - countTo);
+
+        days = Math.floor(difference / (60 * 60 * 1000 * 24) * 1);
+        hours = Math.floor((difference % (60 * 60 * 1000 * 24)) / (60 * 60 * 1000) * 1);
+        mins = Math.floor(((difference % (60 * 60 * 1000 * 24)) % (60 * 60 * 1000)) / (60 * 1000) * 1);
+        secs = Math.floor((((difference % (60 * 60 * 1000 * 24)) % (60 * 60 * 1000)) % (60 * 1000)) / 1000 * 1);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById('hours').innerHTML = hours;
+        document.getElementById('minutes').innerHTML = mins;
+        document.getElementById('seconds').innerHTML = secs;
+
+        clearTimeout(countUp.to);
+        countUp.to = setTimeout(function () { countUp(); }, 1000);
+    });
+
 })(jQuery);
