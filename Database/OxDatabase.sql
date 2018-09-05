@@ -23,6 +23,7 @@ Create table Details
 (
 	CategoryID int,
 	ProductID int,
+	Status bit,
 	primary key (CategoryID, ProductID)
 );
 go
